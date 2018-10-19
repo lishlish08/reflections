@@ -23,3 +23,11 @@ area, as well as changes between the staging area and the last commit, such
 that you make sure that you're not staging commits that are too big, or
 one's that are too small. You can also check that you aren't adding too
 many files are once, since each file could have its own logical change.
+
+4) What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+If you're making an experimental change making a branch helps by allowing
+you the satisfaction of knowing you still have a master branch to fall back
+on. Or if you're working on a team, and you an someone else are changing
+different modules; it helps for each of you to have your own branch.
