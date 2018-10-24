@@ -42,3 +42,17 @@ third step, which could be creating a second branch, and you can follows ~it's~
 path through the different commits you made to it, etc. The branch structure
 really helps you picture the tree in your mind, making it easier to follow than
 if you were just looking at text with different commit IDs.
+
+6) What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+When you merge two branches, you can now get rid of the label of the branch you
+merged into the other (e.g. if you merge coins into master, you can now get
+rid of the label 'coins'). This is because master now contains the full commit
+history of what was previously the coins branch; this to say that you can now
+access one of those commits through master, without having to switch to coins.
+A merge is represented the way it is because it's the best way to show the two
+things coming together. It'd be tedious to have to rework your whole diagram
+such that you now add the commits from the branch you merged into the 'master'
+branch in a linear fashion (especially because you're probably not keeping
+track of things like a timestamp for each commit, and such).
