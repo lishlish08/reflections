@@ -31,3 +31,14 @@ If you're making an experimental change making a branch helps by allowing
 you the satisfaction of knowing you still have a master branch to fall back
 on. Or if you're working on a team, and you an someone else are changing
 different modules; it helps for each of you to have your own branch.
+
+5) How do the diagrams help you visualize the branch structure?
+
+They help you visualize the structure because it paints a clear picture of the
+"step by step" that you have done as you move along with each commit. Meaning,
+that you can see the first step that you did in your project (i.e. your first
+commit), then you have the second step (your second commit). Then you can have a
+third step, which could be creating a second branch, and you can follows ~it's~
+path through the different commits you made to it, etc. The branch structure
+really helps you picture the tree in your mind, making it easier to follow than
+if you were just looking at text with different commit IDs.
