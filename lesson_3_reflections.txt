@@ -56,3 +56,15 @@ things coming together. It'd be tedious to have to rework your whole diagram
 such that you now add the commits from the branch you merged into the 'master'
 branch in a linear fashion (especially because you're probably not keeping
 track of things like a timestamp for each commit, and such).
+
+7) What are the pros and cons of Git's automatic merging vs always doing merges
+manually?
+
+pros: - not having to do merges manually saves you time and irritation
+- doing it manually gives you more control
+
+cons: - sometimes you might miss some things (e.g. if someone creates a function
+but merge doesn't pick it up as a conflict, you might not know that it exists
+unless you do something like git diff, or if the other person added it as a
+commit which even then you'd have to do git log to see it)
+- 
