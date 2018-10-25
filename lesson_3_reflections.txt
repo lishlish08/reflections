@@ -15,3 +15,13 @@ thus by doing it manually you can prevent the headache of having to possibly
 deal with this. Also, maybe the extra files that you added on a remote are not
 necessary for your program to run, and you don't want to waste the extra storage
 space for it right now.
+
+3) Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+A fork creates a copy of an existing repository, but the fork only exists in
+GitHub's servers. Now, you can clone the fork onto your computer, thus creating
+a local copy of it onto your computer. With a fork, your commits will not show
+up in the commit history of the original repository, neither will the original
+author's commits show up in your forked repository. With a branch, this can
+exist locally or you can also push it to your GitHub.
