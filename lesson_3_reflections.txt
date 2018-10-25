@@ -25,3 +25,13 @@ a local copy of it onto your computer. With a fork, your commits will not show
 up in the commit history of the original repository, neither will the original
 author's commits show up in your forked repository. With a branch, this can
 exist locally or you can also push it to your GitHub.
+
+4) What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+Having a copy of the remote is beneficial because it helps for things such as
+conflict resolution where someone else changed the same line as you, or maybe
+there was a change made directly in GitHub that you never pulled to your local
+copy. In the latter case, if you're trying to push the changes from your local
+pc, the copy of the remote will prevent things such as potentially messing up
+your code.
