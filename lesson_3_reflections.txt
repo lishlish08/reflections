@@ -35,3 +35,16 @@ there was a change made directly in GitHub that you never pulled to your local
 copy. In the latter case, if you're trying to push the changes from your local
 pc, the copy of the remote will prevent things such as potentially messing up
 your code.
+
+5) How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+One way to could be using cloud services such as Google Drive where you have a
+shared folder for all collaborators and you all upload your code to there. The
+catch being that you'd have to manually compare each other's code, which leaves
+a lot of room for error. Another way could be that you'd all have to meet in
+person, and work with your code that way; you could split up the tasks such that
+no two people are working on the same file, so that there are no conflicts in
+the end. What's hard about this option is the possibility that maybe it's hard
+for you all to be available at the same time, or also the fact that you have to
+again collect each piece of the project at the end is tedious.
