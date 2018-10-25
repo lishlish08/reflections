@@ -48,3 +48,13 @@ no two people are working on the same file, so that there are no conflicts in
 the end. What's hard about this option is the possibility that maybe it's hard
 for you all to be available at the same time, or also the fact that you have to
 again collect each piece of the project at the end is tedious.
+
+6) When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+You should create a separate branch when you know that the changes that you'll
+make could possibly break your program. Or maybe you know that what you'll be
+working on is not yet ready to be part of the main program, but you still need
+the code from the main branch in order to do your work. The different branch
+leaves more room for error, as well as being able to always have a working
+program.
